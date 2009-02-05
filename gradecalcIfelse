@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Grade Calculator</title>
+    </head>
+    <body>
+       <?php
+       $grade=85;
+       if($grade>=90){
+       echo"You got an A!";
+       }
+       else if($grade>=80){
+           echo"You got a B!";
+           }
+           else if($grade>=70){
+               echo"You got a C!";
+           }
+           else if ($grade>=60){
+               echo"You got a D, better try harder!";
+           }
+           else
+           echo"Hey big guy, You failed! Try again!"
+           ?>
+    </body>
+</html>
